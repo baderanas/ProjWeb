@@ -4,6 +4,5 @@ hi this is houaida
  !!!!!!! MA TANSACH EL PULL mél loul !!!!!!!!!!
 
 index.html
-register_buyer.html
-register_seller.html
+register.html
 login.html
