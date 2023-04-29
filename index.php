@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -26,8 +24,8 @@
 
     <body>
     <nav class="navbar navbar-expand-lg sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-md-5" href="#">
           <img src="img\logo.png" alt="" height="90cm" width="200cm" />
         </a>
         <button
@@ -42,18 +40,18 @@
           <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="main">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav  mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-2 p-lg-3" href="#">Services</a>
+              <a class="nav-link p-2 p-lg-3" href="#Services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-2 p-lg-3" href="#">A propos</a>
+              <a class="nav-link p-2 p-lg-3" href="#about">A propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+              <a class="nav-link p-2 p-lg-3" href="#Contact">Contact</a>
             </li>
           </ul>
           <div class="search ps-3 pe-3 d-none d-lg-block">
@@ -70,8 +68,12 @@
             }
             else {
             ?>
-                <div><a class="btn rounded-pill main-btn" href="login.html">Login</a></div>
-                <div><a class="btn rounded-pill main-btn" href="register.html">Register</a></div>
+
+                <div class=" rounded-pill main-btn " >
+                    <a class="btn  main-btn" href="login.html">Login</a>
+                    <a>/</a>
+                    <a class="btn  main-btn" href="register.html">Register</a>
+                </div>
             <?php
             }
             ?>
@@ -105,14 +107,14 @@
           <p class="text-center">
             Votre Partenaire De Route
           </p>
-          <a class="btn rounded-pill main-btn" href="#">Get Started</a>
+          <a class="btn rounded-pill main-btn" href="register.html">Get Started</a>
         </div>
       </div>
     </div>
 
 
 
-    <div class="features text-center pt-5 pb-5">
+    <div class="features text-center pt-5 pb-5" id="Services">
       <div class="container">
         <div class="main-title mt-5 mb-5 position-relative">
           <img class="mb-4" src="img\logo.png" alt="" width="100cm" height="100cm" />
@@ -164,7 +166,7 @@
       </div>
     </div>
 
-    <div class="our-work text-center pt-5 pb-5">
+    <div class="our-work text-center pt-5 pb-5" >
       <div class="container">
         <div class="main-title mt-5 mb-5 position-relative">
           <img class="mb-4" width="100cm" height="100cm" src="img\logo.png" alt="" />
@@ -199,7 +201,7 @@
       </div>
     </div>
 
-    <div class="stuff pt-5">
+    <div class="stuff pt-5" id="about">
       <div class="container">
         <div class="main-title text-center mt-5 mb-5 position-relative">
           <img class="mb-4" src="img\logo.png" width="100cm" height="100cm" alt="" />
@@ -237,7 +239,7 @@
       </div>
     </div>
 
-    <div class="team text-center pb-5 pt-5">
+    <div class="team text-center pb-5 pt-5" id="Contact">
       <div class="container pb-5 pt-5">
         <h2 class="fw-bold">Rencontrer notre équipe</h2>
         <p class="text-black-50 mb-5">
@@ -248,10 +250,10 @@
           <div style="width: 16.7%; margin: auto;" class="col-md-6 col-lg-3">
             <div class="box bg-white">
               <img class="img-fluid" src="" alt="" />
-              <h4 class="p-3 text-light" style="border-radius: 10px;-webkit-border-radius: 10px;">Melek Gharbi</h4>
+              <h4 class="p-3 text-light" style="border-radius: 10px;-webkit-border-radius: 10px;">Malek Gharbi</h4>
               <blockquote class="text-black-50 p-3">
                 +216 01010101
-                mohamedmelek.gharbi <br>
+                mohamedmalek.gharbi <br>
                 @insat.ucar.tn
               </blockquote>
             </div>
