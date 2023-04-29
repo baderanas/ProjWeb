@@ -242,4 +242,34 @@
 	background: #e91e63;
 }
 
+.btn-primary{
+  color: #fff;
+  background-color: #fd0d0dc2;
+
+}
+
+.link-info {
+  color: #dc3545;
+}
+
+
+.bg-image-vertical {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+  }
+  
+  @media (min-width: 1025px) {
+  .h-custom-2 {
+  height: 100%;
+  }
+  }
+
+  .form-check-input:checked {
+      background-color: #dc3545;
+      border-color: #0d6efd;
+  }
+
 
