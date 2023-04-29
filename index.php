@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -57,9 +59,22 @@
           <div class="search ps-3 pe-3 d-none d-lg-block">
             <i class="fa-solid "></i>
           </div>
-          <div><a class="btn rounded-pill main-btn" href="login.html">Login</a></div>
-          <div><a class="btn rounded-pill main-btn" href="register.html">Register</a></div>
-
+            <?php
+            session_start();
+            if(isset($_SESSION['user']))
+            {
+            ?>
+                <div><a class="btn rounded-pill main-btn" href="Profile.html"><?php echo $_SESSION['user']; ?></a></div>
+                <div><a class="btn rounded-pill main-btn" href="logout.php">Logout</a></div>
+            <?php
+            }
+            else {
+            ?>
+                <div><a class="btn rounded-pill main-btn" href="login.html">Login</a></div>
+                <div><a class="btn rounded-pill main-btn" href="register.html">Register</a></div>
+            <?php
+            }
+            ?>
         </div>
       </div>
     </nav>

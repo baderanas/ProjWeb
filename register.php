@@ -2,11 +2,11 @@
 
 session_start();
 
-// Check if the user is already logged in, if yes then redirect him to welcome page
-if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
+/* Check if the user is already logged in, if yes then redirect him to welcome page
+if (isset($_SESSION["user"])) {
     header("location: index.html");
     exit;
-}
+}*/
 
 //make connection
 include_once ('connect.php');
@@ -128,4 +128,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     }
 }
-?>

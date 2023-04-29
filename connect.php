@@ -10,4 +10,3 @@ $conn = mysqli_connect($host, $uname, $dbpass, $db);
 if (!$conn) {
     die("Sorry, there was an error connecting to the database. Please try again later.");
 }
-?>
