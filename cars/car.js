@@ -12,10 +12,13 @@ loadMoreBtn.onclick = () => {
   let boxes = [
     ...document.querySelectorAll(".car-packages .box-container .box"),
   ];
-  for (var i = currentItem; i < currentItem + 5; i++) {
+  for (let i = currentItem; i < currentItem + 4; i++) {
     boxes[i].style.display = "inline-block";
+    if (i == boxes.length) {
+      break;
+    }
   }
-  currentItem += 5;
+  currentItem += 8;
   if (currentItem >= boxes.length) {
     loadMoreBtn.style.display = "none";
   }

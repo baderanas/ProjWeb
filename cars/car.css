@@ -197,7 +197,8 @@ body {
 
 .banner {
   position: center;
-  min-height: 44rem;
+  min-height: 30rem;
+
 }
 .banner .row {
   margin-top: 1.35rem;
@@ -233,7 +234,7 @@ body {
   letter-spacing: 2px;
 }
 .banner .info p {
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 500;
   color: #aaa;
   letter-spacing: 2px;
@@ -304,10 +305,32 @@ body {
   color: var(--black);
 }
 
+.car-packages .box-container .box .content .buy-price {
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: 500;
+  margin: 0px;
+  /* padding: 1rem 0; */
+  line-height: 1;
+  color: var(--dark-color);
+}
+
+.car-packages .box-container .box .content .rent-price {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+  /* padding: 1rem 0; */
+  line-height: 1;
+  color: var(--dark-color);
+}
+
 .car-packages .box-container .box .content p {
-  font-size: 1.5rem;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: left;
   padding: 1rem 0;
-  line-height: 2;
+  line-height: 1;
   color: var(--light-black);
 }
 
