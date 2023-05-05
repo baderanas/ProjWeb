@@ -1,26 +1,26 @@
 :root {
     --dark-color: rgba(86, 23, 23, 0.871);
-    --green-color: #eb2020;
-    --red-color: #f0e8e9;
-    --yellow-color: #e10000;
+    --red-color: #eb2020;
+    --white-color: #f0e8e9;
+    --reddish-color: #e10000;
     --section-color: #e9ecef5e;
   }
   body {
     font-family: "Roboto", sans-serif;
   }
   .main-btn {
-    background-color: var(--red-color);
-    color: var(--yellow-color);
+    background-color: var(--white-color);
+    color: var(--reddish-color);
     padding: 0.5rem 1rem;
   }
   .main-btn:hover {
-    color: var(--yellow-color);
+    color: var(--reddish-color);
   }
   .main-title::after {
     content: "";
     width: 120px;
     height: 2px;
-    background-color: var(--green-color);
+    background-color: var(--red-color);
     position: absolute;
     bottom: -20px;
     left: 50%;
@@ -36,13 +36,13 @@
   .navbar .navbar-nav .nav-link.active,
   .navbar .navbar-nav .nav-link:focus,
   .navbar .navbar-nav .nav-link:hover {
-    color: var(--green-color);
+    color: var(--red-color);
   }
   .navbar .search {
-    border-left: 1px solid var(--green-color);
+    border-left: 1px solid var(--red-color);
   }
   .navbar .search svg {
-    color: var(--green-color);
+    color: var(--red-color);
   }
   .navbar .navbar-toggler {
     color: white;
@@ -53,7 +53,7 @@
     box-shadow: none;
   }
   .navbar .navbar-toggler[aria-expanded="true"] {
-    border-color: var(--green-color);
+    border-color: var(--red-color);
   }
   /* End Navbar */
 
@@ -77,10 +77,10 @@
     color: var(--section-color);
   }
   .features .icon-holder .icon {
-    color: var(--green-color);
+    color: var(--red-color);
   }
   .features .feat h4 {
-    color: var(--yellow-color);
+    color: var(--reddish-color);
   }
 /* End Features */
 
@@ -89,15 +89,15 @@
     background-color: var(--section-color);
   }
   .our-work ul .active {
-    background-color: var(--red-color);
-    color: var(--yellow-color);
+    background-color: var(--white-color);
+    color: var(--reddish-color);
   }
   .our-work ul li {
     padding: 0.5rem 1rem;
     cursor: pointer;
   }
   .our-work ul li:not(.active):hover {
-    color: var(--red-color);
+    color: var(--white-color);
   }
   .our-work .box {
     padding: 5px;
@@ -135,10 +135,10 @@
     background-color: var(--section-color);
   }
   .team h2 {
-    color: var(--yellow-color);
+    color: var(--reddish-color);
   }
   .team .box h4 {
-    background-color: var(--green-color);
+    background-color: var(--red-color);
   }
   /* End Team */
 
@@ -158,10 +158,10 @@
     background-color: var(--dark-color);
   }
   .footer .copyright > span {
-    color: var(--green-color);
+    color: var(--red-color);
   }
   .footer .copyright div span {
-    color: var(--yellow-color);
+    color: var(--reddish-color);
   }
   .footer .contact ul svg {
     width: 20px;
